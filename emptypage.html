@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <style>
+        body {
+            background-color: #333134;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-size: 32px;
+            animation: fadeIn 1.5s ease-in-out; /* Added animation */
+        }
+
+        .message-container {
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .donate-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .donate-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #FF4500;
+            border: 2px solid #FF4500;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .donate-button:hover {
+            background-color: #fff;
+            color: #FF4500;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Message from Teacher Bosco</h1>
+
+        <div class="message-container">
+            <p>There are currently no resources uploaded.</p>
+            <p>Please click the button below to donate.</p>
+        </div>
+
+        <div class="donate-container">
+            <a href="fileupload-api.html" class="donate-button">Donate Now</a>
+            <button><a href="index.html">Back Home</a></button>
+        </div>
+    </div>
+
+</body>
+</html>
